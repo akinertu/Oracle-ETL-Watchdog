@@ -1,6 +1,6 @@
 # ETL-Monitor-Alert
 
-ETL-Monitor-Alert is a Python-based tool designed to ensure the timely execution of ETL processes. It connects to an Oracle database to check the most recent data insertion time against the system clock. If the data has not been updated within the current hour, the tool triggers alerts. It utilizes a combination of local notifications and Microsoft Teams messages to promptly inform stakeholders of potential delays or disruptions in the ETL workflow. This project is ideal for data engineers and administrators looking to maintain high data quality and operational consistency in real-time data environments.
+ETL-Monitor-Alert is a Python-based tool designed to ensure the timely execution of ETL processes. It connects to an Oracle database to check the most recent data insertion time against the system clock. If the data has not been updated within the current hour, the tool triggers alerts. It utilizes a combination of local notifications(popup message and beep sound) and Microsoft Teams messages to promptly inform stakeholders of potential delays or disruptions in the ETL workflow. This project is ideal for data engineers and administrators looking to maintain high data quality and operational consistency in real-time data environments.
 
 ## Features
 
