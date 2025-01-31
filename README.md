@@ -23,7 +23,6 @@ To run Oracle-ETL-Watchdog, you need to set up the following environment variabl
 - DB_USER: Your database username
 - DB_PASSWORD: Your database password
 - DB_DSN: Your Oracle database DSN (Data Source Name)
-- Create 
 - TEAMS_WEBHOOK_URL: The Microsoft Teams webhook URL for sending alerts
 This is the URL to which the POST request is sent. In your context, this URL is likely a webhook provided by Microsoft Teams. Webhooks are user-defined HTTP callbacks that are triggered by specific events. When you send a POST request to a Microsoft Teams webhook URL, it allows you to send custom messages, notifications, or alerts directly into a Microsoft Teams channel.
 
